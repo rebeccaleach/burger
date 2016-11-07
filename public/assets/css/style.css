@@ -1,0 +1,73 @@
+html {
+	background: url(../img/burger.jpg) no-repeat center center fixed;
+	background-size: cover;
+	opacity: 0.9;
+}
+
+.container {
+	margin: 50px auto;
+	width: 90%;
+	max-width: 1000px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16pt;
+	line-height: 16pt;
+}
+
+.floatLeft {
+	width: 50%;
+	float: left;
+}
+
+.floatRight {
+	width: 50%;
+	float: right;
+}
+
+.fullWidth {
+	margin-bottom: 1em;
+	width: 100%;
+	float: left;
+}
+
+li {
+	padding: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 15px;
+	font-family: 'Anton', sans-serif;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+  background: rebeccapurple;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 1em;
+  list-style-type: none;
+}
+
+button {
+	margin: 1em 0;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  background: tomato;
+  padding: 1em;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
